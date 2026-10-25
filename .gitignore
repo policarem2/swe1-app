@@ -20,3 +20,8 @@ db.sqlite3
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/

@@ -1,0 +1,19 @@
+language: python
+
+python:
+  - "3.11"
+
+install:
+  - pip install -r requirements.txt
+  - pip install black flake8 coverage coveralls
+
+script:
+  - black --check .
+  - flake8 .
+  - python manage.py check
+  - coverage run --source='polls' manage.py test
+  - coverage report
+
+after_success:
+  - coveralls
+
