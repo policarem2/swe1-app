@@ -2,6 +2,7 @@
 # SWE1 Django Polls Application
 
 [![Build Status](https://app.travis-ci.com/policarem2/swe1-app.svg?branch=main)](https://app.travis-ci.com/policarem2/swe1-app)
+[![Coverage Status](https://coveralls.io/repos/github/policarem2/swe1-app/badge.svg)](https://coveralls.io/github/policarem2/swe1-app)
 
 A Django web application developed for my Software Engineering course. The project allows users to vote in polls and view their results.
 
