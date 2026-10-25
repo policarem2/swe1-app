@@ -1,6 +1,7 @@
 
 # SWE1 Django Polls Application
 
+This project uses automated CI/CD with Travis CI.
 [![Build Status](https://app.travis-ci.com/policarem2/swe1-app.svg?branch=main)](https://app.travis-ci.com/policarem2/swe1-app)
 [![Coverage Status](https://coveralls.io/repos/github/policarem2/swe1-app/badge.svg)](https://coveralls.io/github/policarem2/swe1-app)
 
